@@ -55,10 +55,6 @@
     margin-bottom: 20px;
   }
 
-  .home-content-container button {
-    width: 506px;
-  }
-
   .home-image-container svg {
     width: 506px;
   }
@@ -76,7 +72,7 @@
 
 @media (min-width: 992px) {
   .home-container {
-    padding: 40px;
+    padding: 30px;
     font-size: 55px;
   }
 
@@ -85,7 +81,7 @@
   }
 
   .home-content-container {
-    padding: 20px 20px 150px 20px;
+    padding: 20px 50px 150px 20px;
   }
 
   .home-content-container h1 {
@@ -94,8 +90,9 @@
   }
 
   .home-content-container p {
-    width: 700px;
-    margin-bottom: 47px;
+    font-size: 0.4em;
+    width: 500px;
+    margin-bottom: 48px;
   }
 }
 
@@ -103,7 +100,7 @@
   .home-card {
     flex-direction: row;
     justify-content: space-around;
-    padding: calc((((85vh - 480px)/2) - 20px)) 0;
+    padding: calc((((85vh - 600px)/2) - 20px));
   }
 
   .home-content-container {
@@ -114,7 +111,7 @@
     text-align: left;
     align-content: space-between;
     flex-flow: wrap;
-    padding: 10px 10px 60px 10px;
+    padding: 50px 10px 60px 80px;
   }
 
   .home-image-container {
