@@ -1,11 +1,14 @@
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';
+
 import { Link, NavLink } from 'react-router-dom';
 
-function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
-      <div className="container-fluid ">
+      <div className="container-fluid">
+        {' '}
+        {/* previne quebra de linha entre logo e itens */}
         <Link to="/" className="nav-logo-text">
           <h4>DS Catalog</h4>
         </Link>
@@ -20,7 +23,6 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
@@ -43,6 +45,6 @@ function Navbar() {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

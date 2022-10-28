@@ -1,4 +1,4 @@
-import { ReactComponent as MainImage } from 'assets/images/main-img.svg';
+import { ReactComponent as MainImage } from 'assets/images/main-image.svg';
 import ButtonIcon from 'components/ButtonIcon';
 import { Link } from 'react-router-dom';
 
@@ -16,9 +16,9 @@ const Home = () => {
               mercado.
             </p>
           </div>
-          <div >
+          <div>
             <Link to="/products">
-              <ButtonIcon />
+              <ButtonIcon text="Inicio sua busca agora"/>
             </Link>
           </div>
         </div>
